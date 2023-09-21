@@ -34,19 +34,6 @@ public static class Program
         try
         {
             // https://github.com/serilog/serilog-sinks-file
-            //string logFilePath = Path.Combine(
-            //    Path.GetDirectoryName(
-            //        Assembly.GetExecutingAssembly().Location) ?? "",
-            //        "xutil-log.txt");
-//            Log.Logger = new LoggerConfiguration()
-//#if DEBUG
-//                .MinimumLevel.Debug()
-//#else
-//                .MinimumLevel.Information()
-//#endif
-//                .Enrich.FromLogContext()
-//                .WriteTo.File(logFilePath, rollingInterval: RollingInterval.Day)
-//                .CreateLogger();
 #if DEBUG
             DeleteLogs();
 #endif
