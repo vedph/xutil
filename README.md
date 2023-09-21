@@ -2,11 +2,13 @@
 
 This tiny utility tool provides the following functions:
 
-- check a set of XML files for well-formedness;
-- check a set of XML files for validity against a given schema;
-- transform a set of XML files using a given XSLT 1.0 stylesheet.
+- check a set of XML files for **well-formedness**;
+- check a set of XML files for **validity** against a given schema;
+- **transform** a set of XML files using a given XSLT 1.0 stylesheet.
 
 ## Commands
+
+Open a command prompt in the directory where the `xutil` executable is located and type `./xutil` to get the list of available commands.
 
 ### Check XML Well Formedness
 
